@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 50vh;
+  width: 30vw;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  padding: 2vw;
+  text-align: center;
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 32px;
+}
+
+.para {
+  color: #333333;
+}
+
+.button {
+  height: 8vh;
+  width: 8vw;
+  background-color: #0b69ff;
+  border-radius: 0.5em;
+  border: none;
+  padding: 1em;
+  color: #ffffff;
+}
+
+.number {
+  color: #0b69ff;
+  font-size: 4em;
+}
